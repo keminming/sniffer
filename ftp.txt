@@ -1,0 +1,50 @@
+
+------------------------------------------session---------------------------------------------
+220 H3 FTP server (Version wu-2.6.1-18) ready.
+AUTH GSSAPI
+530 Please login with USER and PASS.
+AUTH KERBEROS_V4
+530 Please login with USER and PASS.
+USER cs6262
+331 Password required for cs6262.
+PASS Re=mi3vE4
+230 User cs6262 logged in.
+SYST
+215 UNIX Type: L8
+TYPE I
+200 Type set to I.
+TYPE A
+200 Type set to A.
+PASV
+227 Entering Passive Mode (10,2,2,1,23,145)
+LIST
+150 Opening ASCII mode data connection for directory listing.
+226 Transfer complete.
+PASV
+227 Entering Passive Mode (10,2,2,1,5,199)
+LIST
+150 Opening ASCII mode data connection for directory listing.
+226 Transfer complete.
+CWD /tmp
+250 CWD command successful.
+PASV
+227 Entering Passive Mode (10,2,2,1,152,78)
+LIST
+150 Opening ASCII mode data connection for directory listing.
+226 Transfer complete.
+PASV
+227 Entering Passive Mode (10,2,2,1,177,181)
+LIST
+150 Opening ASCII mode data connection for directory listing.
+226 Transfer complete.
+TYPE I
+200 Type set to I.
+PASV
+227 Entering Passive Mode (10,2,2,1,162,33)
+RETR hosts
+150 Opening BINARY mode data connection for hosts (213 bytes).
+226 Transfer complete.
+QUIT
+221-You have transferred 213 bytes in 1 files.
+221-Total traffic for this session was 1337 bytes in 1 transfers.
+221 Thank you for using the FTP service on H3.
