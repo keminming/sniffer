@@ -1,0 +1,3 @@
+sniffer
+=======
+This program is written in C++ using visual studio IDE. So the compilation and build is quite simple. Because we use Wincap API, so first we need to tell visual studio where is the “Include” and “lib” folder of Wincap development package. After the “sniffer.exe” we can run it through command line “sniffer [80|21|23] filename”, where the number “80”,” 21”,” 23” represent the port number of http, ftp and telnet respectively. The “filename” represent the corresponding trace file (x.pcap) we want to load. The program will print all the sessions of a certain protocol to the console. 
